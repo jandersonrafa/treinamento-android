@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_alignParentBottom="true"
+    android:background="@android:color/black"
+    android:orientation="horizontal"
+
+    android:paddingTop="10dp"
+
+    android:weightSum="5">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/tela_inicial_ico" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="@string/tela_inicial"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/loja_virtual_ico" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="@string/loja_virtual"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/blog_ico" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="@string/blog"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/cartoes_renner_ico" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="@string/cart_es_renner"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/mais_ico" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="@string/mais"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LoginApplication</string>
+    <string name="tela_inicial">TELA\nINICIAL</string>
+    <string name="loja_virtual">LOJA\nVIRTUAL</string>
+    <string name="blog">BLOG</string>
+    <string name="cart_es_renner">CARTÕES\nRENNER</string>
+    <string name="mais">MAIS</string>
+    <string name="password_frase_ola">olá Cláudio, digite a senha de\ncompra do seu cartão</string>
+</resources>
