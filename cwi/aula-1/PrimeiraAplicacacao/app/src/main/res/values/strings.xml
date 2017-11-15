@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PrimeiraAplicacacao</string>
+    <string name="secondactivity">secondActivity</string>
+    <string name="ligar">Ligar</string>
+</resources>
