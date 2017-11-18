@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    tools:context="com.example.jandersonrosa.trooper.TrooperDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/trooper_descripition_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <ImageView
+            android:src="@drawable/first_order"
+            android:id="@+id/trooper_affliation_imv"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/trooper_image_imv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/galactic_empire" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
